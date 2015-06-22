@@ -766,7 +766,7 @@ if ( class_exists("GFForms") ) {
 			$days = self::get_days();
 
 			$strings = array(
-				'already_exists' => __('This combination already exists', 'gravity-forms-business-hours'),
+				'already_exists' => __('This day already exists', 'gravity-forms-business-hours'),
 			);
 
 			wp_localize_script('business_hours_app', 'GFBusinessHours', $strings);

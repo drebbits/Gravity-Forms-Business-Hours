@@ -229,7 +229,7 @@
 	self.does_exact_day_exist = function(obj, list) {
 		var i;
 		for (i = 0; i < list.length; i++) {
-			if (list[i].day === obj.day && list[i].fromtime === obj.fromtime && list[i].totime === obj.totime) {
+			if (list[i].day === obj.day) {
 				return true;
 			}
 		}
